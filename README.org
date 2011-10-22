@@ -1,10 +1,12 @@
 * Installation
-1. Fetch configuration from git
-   : git clone
-2. Create symlinks
-   : ln -s ~/.vim/vimrc ~/.vimrc
-   : ln -s ~/.vim/gvimrc ~/.gvimrc
-3. Fetch other submodules
-   : cd ~/.vim
-   : git submodule init
-   : git submodule update
+Fetch the configuration from git.
+: git clone git://github.com/mtstickney/vim-config.git ~/.vim
+
+Create symlinks for configuration files.
+: ln -s ~/.vim/vimrc ~/.vimrc
+: ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Fetch other submodules
+: cd ~/.vim
+: git submodule init
+: git submodule update
