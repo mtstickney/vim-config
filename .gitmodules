@@ -1,0 +1,9 @@
+[submodule "bundle/vim-orgmode"]
+	path = bundle/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode.git
+[submodule "syntastic"]
+	path = syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
