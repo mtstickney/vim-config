@@ -52,7 +52,7 @@ set virtualedit+=block
 " Wildmenu customizations
 set wildchar=<Tab>
 set wildmenu
-set wildmode=list:longest
+set wildmode=list:full
 
 set wildignore+=.hg,.git,.svn " Version control
 set wildignore+=*.aux,*.out,*.toc " LaTeX intermediate files
@@ -113,6 +113,7 @@ let maplocalleader = "\\"
 " Clear hlsearch entries
 noremap <leader><space> :noh<cr>:call clearmatches()<cr>
 nmap <silent> <leader>s :silent :set nolist!<CR> " toggle visible whitespace
+" to them.
 
 " Highlight VCS conflict markers
 match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
